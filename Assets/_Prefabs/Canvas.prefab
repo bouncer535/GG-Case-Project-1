@@ -197,7 +197,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1835831628027722793}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5933387093048694971}
+        m_MethodName: green
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6670964349896688556}
+        m_MethodName: green
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1835831628171957973
@@ -681,6 +703,7 @@ GameObject:
   - component: {fileID: 1947997484156511972}
   - component: {fileID: 1947997484156511974}
   - component: {fileID: 1947997484156511973}
+  - component: {fileID: 6937366865195249915}
   - component: {fileID: 1947997484156511975}
   m_Layer: 5
   m_Name: Skin1
@@ -731,8 +754,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16197936, g: 0.5283019, b: 0.17745699, a: 1}
-  m_RaycastTarget: 1
+  m_Color: {r: 0.34117648, g: 0.34117648, b: 0.34117648, a: 1}
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -747,6 +770,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &6937366865195249915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997484156511971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1947997484156511975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -826,6 +861,7 @@ GameObject:
   - component: {fileID: 1947997484295871803}
   - component: {fileID: 1947997484295871802}
   - component: {fileID: 1947997484295871804}
+  - component: {fileID: 6670964349896688556}
   m_Layer: 5
   m_Name: Skin8
   m_TagString: SkinButton
@@ -958,6 +994,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &6670964349896688556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997484295871800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997484304924958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,6 +1284,7 @@ GameObject:
   - component: {fileID: 1947997484547094534}
   - component: {fileID: 1947997484547095032}
   - component: {fileID: 1947997484547094535}
+  - component: {fileID: 5543403127924212195}
   m_Layer: 5
   m_Name: SkinFrameinFrame
   m_TagString: Untagged
@@ -1299,6 +1348,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &5543403127924212195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997484547094533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997484657079838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1372,8 @@ GameObject:
   - component: {fileID: 1947997484657079825}
   - component: {fileID: 1947997484657079824}
   - component: {fileID: 1947997484657079826}
+  - component: {fileID: 8154871988460464915}
+  - component: {fileID: 572604854503865819}
   m_Layer: 5
   m_Name: Skin7
   m_TagString: SkinButton
@@ -1443,6 +1506,30 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &8154871988460464915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997484657079838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &572604854503865819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997484657079838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997484772724879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,6 +1912,7 @@ GameObject:
   - component: {fileID: 1947997485266172289}
   - component: {fileID: 1947997485266172288}
   - component: {fileID: 1947997485266172290}
+  - component: {fileID: 8369901638725614794}
   m_Layer: 5
   m_Name: Skin5
   m_TagString: SkinButton
@@ -1957,6 +2045,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &8369901638725614794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485266172302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997485418574071
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,6 +2069,8 @@ GameObject:
   - component: {fileID: 1947997485418574058}
   - component: {fileID: 1947997485418574057}
   - component: {fileID: 1947997485418574059}
+  - component: {fileID: 4098634636582533964}
+  - component: {fileID: 7463996665259259507}
   m_Layer: 5
   m_Name: Skin3
   m_TagString: SkinButton
@@ -2101,6 +2203,30 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &4098634636582533964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485418574071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7463996665259259507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485418574071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997485458413594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,6 +2461,7 @@ GameObject:
   - component: {fileID: 1947997485542273840}
   - component: {fileID: 1947997485542273855}
   - component: {fileID: 1947997485542273841}
+  - component: {fileID: 6541694815376386504}
   m_Layer: 5
   m_Name: Skin4
   m_TagString: SkinButton
@@ -2467,6 +2594,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &6541694815376386504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485542273853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997485570347084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,6 +2710,7 @@ GameObject:
   - component: {fileID: 1947997485576796630}
   - component: {fileID: 1947997485576796629}
   - component: {fileID: 1947997485576796631}
+  - component: {fileID: 3598226421285087287}
   m_Layer: 5
   m_Name: Skin2
   m_TagString: SkinButton
@@ -2703,6 +2843,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &3598226421285087287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485576796627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997485594549101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,8 +2865,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1947997485594549102}
   - component: {fileID: 1947997485594549088}
+  - component: {fileID: 8758316544956480832}
   - component: {fileID: 1947997485594549103}
   - component: {fileID: 1947997485594549089}
+  - component: {fileID: 5933387093048694971}
   m_Layer: 5
   m_Name: Skin9
   m_TagString: SkinButton
@@ -2751,6 +2905,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947997485594549101}
   m_CullTransparentMesh: 0
+--- !u!114 &8758316544956480832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485594549101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071c3a99479aa154095843e7ea841c5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1947997485594549103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2847,6 +3013,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &5933387093048694971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485594549101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997485676331062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,6 +3037,7 @@ GameObject:
   - component: {fileID: 1947997485676331049}
   - component: {fileID: 1947997485676331048}
   - component: {fileID: 1947997485676331050}
+  - component: {fileID: 6002063466984505906}
   m_Layer: 5
   m_Name: Skin6
   m_TagString: SkinButton
@@ -2991,6 +3170,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &6002063466984505906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947997485676331062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb510f2db633fa34fb43379c4f7d8e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947997485683353801
 GameObject:
   m_ObjectHideFlags: 0
